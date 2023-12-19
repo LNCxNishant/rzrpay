@@ -68,7 +68,7 @@ const MakePaymentComponent = () => {
       }
   return (
     <div>
-        <button onClick={()=>makePayment()}>Pay 100 now</button>
+        <button type='submit' className='bg-slate-400 text-white rounded-full p-4' onClick={()=>makePayment()}>Pay 100 now</button>
     </div>
   )
 }
